@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
+.container-sm {
+  background-color: white;
+  height: 80vh;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 8em;
+  text-align: center;
+  display: flex;
+  box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.685);
+}
+#bottom-tipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transform: rotate(180deg);
+}
+#card-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+.boton {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 10px 50px;
+  background-color: rgba(8, 8, 216, 0.815);
+  color: white;
+  border: solid 2px black;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.685);
+}
